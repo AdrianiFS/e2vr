@@ -46,7 +46,6 @@ export default {
           this.gameList = [];
           this.gameList.push(data.results);
         })
-
         .catch((error) => {
           console.log(error);
         });
